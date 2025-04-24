@@ -164,9 +164,10 @@ void PayLoan() {
 
             }
             else{
-
+                int timeleft = 6-loanpay;
                 cout << "\n----------------------------------\n";
                 cout << "    Current Loan: $" << users[i].loan << "\n";
+                cout << "    Time left to pay(months): " << timeleft << "\n";
                 cout << "----------------------------------\n";
                 cout << "Enter amount to pay: $";
 
